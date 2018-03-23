@@ -1,0 +1,203 @@
+/*
+ Theme Name:   The bootstrap for KIT
+ Description:  Mimics the web layout for the Karlsruhe Institute of Technology
+ Author:       A Kopmann
+ Author URI:   http://ufo.kit.edu
+ Template:     the-bootstrap
+ Version:      1.0
+ Text Domain:  the-bootstrap-kit
+*/
+
+
+body {
+    background-image: url(kit_bg_body_V2.jpg);
+}
+* {
+    /*    border:0; */
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+#page {
+	box-shadow: 0px 0px 30px grey;
+	padding: 0px 0 0;
+}
+div#head {
+    height:80px;
+    background-color:#ffffff;
+    padding-top: 8px;
+	display: table;
+}
+div#head-left {
+	display: table-cell;
+	vertical-align: top; 
+}
+div#head-right {
+	display: table-cell;
+	vertical-align: bottom; 
+}
+div#logo {
+    background-color:#fff;
+    float:left;
+    height:60px;
+    width:140px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+div#head-text {
+    background-color:#fff;
+    float:left;
+    font-size:.9091em;
+    font-weight:700;
+    line-height:1.25em;
+}
+
+.big_font{
+    font-size:1.09em !important;
+    height:auto !important;
+}
+
+
+/* Ueberschriften */
+h1 {
+    color:#000000;
+    font-size:1.27em;
+    margin:-1px 0 14px;
+    padding-bottom:6px;
+    padding-top:10px; /* neu */
+    line-height:24px;
+}
+h1.caption {
+    background-color:#ffffff;
+    color:#000000;
+    font-weight:700;
+    font-size:1em;
+    height:auto;
+    padding-left:6px;
+    text-align:left;
+    margin-bottom:0px;
+    border-bottom: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+h2 {
+   	color:#000000;
+    font-size:1.0909em;
+    font-weight:700;
+    line-height:20px;
+    margin:0;
+    padding-top:0px;
+    padding-bottom:12px;
+}
+h3 {
+    color:#808080;
+    font-size:1.0909em;
+    font-weight:700;
+    line-height:16px;
+    margin:0;
+    padding-bottom:8px;
+}
+h4 {
+    font-size:1em;
+    margin-bottom:5px;
+    padding-top:16px;
+    padding-bottom:6px;
+}
+h5 {
+    color:#000000;
+    font-size:1em;
+    margin:-1px 0 14px;
+    line-height:16px;
+}
+/* Formatierungen fuer Content */
+div#content {
+    color:#000000;
+    line-height:1.45em;
+    margin:-3px 0 19px;
+    overflow:hidden;
+}
+div#content img {
+    /*    border:1px #b3b3b3 solid; */
+}
+div.text {
+    color:#000000;
+    line-height:1.45em;
+    margin:0 0 19px;
+    overflow:hidden;
+}
+div.rubriktext {
+    color:#000000;
+    line-height:1.45em;
+    margin:-3px 0 12px;
+}
+div.formular {
+    color:#000000;
+    line-height:1.45em;
+}
+/*
+a {
+	color:#009682;
+} 
+*/
+a.black_link {
+	color:#000000;
+}
+a:hover {
+    text-decoration:none;
+}
+ul {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+ul li {
+    list-style-image: url(/img/intern/dynimg.php?color=808080);
+}
+ol {
+    margin-left: 3em;
+}
+pre, pre * {
+    font-family: monospace;
+    font-size: 11px;
+    color: #000000;
+}
+code, code * {
+    font-family: monospace;
+    font-size: 12px;
+    color: #000000;
+}
+/* Erste Zeile - aka "Sub-Headline" */
+div.firstline {
+    color:#000000;
+    line-height:1.45em;
+    margin:-4px 0 13px;
+    font-weight: bold;
+}
+/* Beschreibungen fuer Bilder */
+.bild-desc {
+    font-color:#000000;
+    font-size:.909em;
+    line-height:1.2em;
+    /*    margin-left:-1px; */
+    margin-right: 5px;
+    margin-top:7px;
+    padding-bottom:3px;
+}
+/* Fuer zwei Spalten Content */
+div.box-left {
+    float:left;
+    /* width:190px; */
+    width: 192px;
+    margin-right:10px;
+}
+div.box-right {
+    float:right;
+    /* width:372px; */
+    width:360px;
+}
+* html div.box-right {
+    width:351px;
+}
+p {
+    margin-bottom: 0.5em;
+}
