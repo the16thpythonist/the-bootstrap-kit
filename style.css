@@ -154,7 +154,8 @@ ul {
 }
 ul li {
     /* list-style-image: url(/img/intern/dynimg.php?color=808080); */
-    list-style-image: url(img/dynimg.php.gif);
+    /* list-style-image: url(img/dynimg.php.gif); */ 
+    /*list-style-type: square; */
 }
 ol {
     margin-left: 3em;
@@ -218,7 +219,7 @@ p {
 .entry-title {
         margin-bottom: 0px;
 }
-#comments-title {
+ul#comments-title {
     border-bottom: 1px solid #EEEEEE;
     font-size:1.0909em;
     margin: 0 0 27px;
@@ -248,8 +249,14 @@ p {
     border: 0px solid #e3e3e3; 
 }
 
+#page-footer.well > ul {
 /*
+    background-color: #f5f5f5;
+    border: 0px solid #e3e3e3;
+*/
+}
 
+/*
 .well {
     min-height: 20px;
     padding: 19px;
