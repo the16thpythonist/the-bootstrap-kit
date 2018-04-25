@@ -65,6 +65,7 @@ function end_modify_html() {
     $html = str_replace( 'thought on', 'citation of', $html );
     $html = str_replace( 'Posted in', 'In categories', $html );
     $html = str_replace( ' Archives:', ':', $html ); 
+    $html = str_replace( 'comments', 'citations', $html );
     echo $html;
 }
 
