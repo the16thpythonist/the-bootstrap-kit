@@ -165,7 +165,8 @@ The theme is currently only used with English language.
 * Remove author / date line for all posts and comments
 * Replaced the standard naming convention to better match the display of publications
 * Removed shaded frame in the smalest resolution (for mobile phones)
-
+* Added KIT-like bullets and removed background color of the widgets because the KIT 
+	design does not know any background color
 
 = 1.0 =
 * Initial version of a child theme for KIT

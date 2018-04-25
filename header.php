@@ -41,7 +41,7 @@
 					<hgroup>
                         <div id="head">
                             <div id="head-left">
-                            <div id="logo"><a href="http://www.kit.edu" title="KIT-Logo - Link zur KIT-Startseite"><img src="<?php bloginfo('url'); ?>/wp-content/themes/the-bootstrap-kit/kit_logo.svg" alt="KIT-Logo - Link zur KIT-Startseite" width="100%" height="100%"></a></div></div>
+                            <div id="logo"><a href="http://www.kit.edu" title="KIT-Logo - Link zur KIT-Startseite"><img src="<?php bloginfo('url'); ?>/wp-content/themes/the-bootstrap-kit/img/kit_logo.svg" alt="KIT-Logo - Link zur KIT-Startseite" width="100%" height="100%"></a></div></div>
                             <div id="head-right">
                             <div id="head-text" class="big_font"><a class="black_link" href="<?php bloginfo('url'); ?>"><?php bloginfo('description'); ?></a></div></div>
                         </div>
