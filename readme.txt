@@ -134,6 +134,33 @@ style.css: (child)
 ```
 
 
+The base class is not maintained any more. Check for each new Wordpress version
+if the interface between theme and Wordpress is still compatible. 
+
+Changes: 
+
+Argument list of Waler_Nav_Menu has been extended in Wordpress (14.6.18 ak)
+
+```
+inc/nav-menu-walker.php:
+
+class The_Bootstrap_Nav_Walker extends Walker_Nav_Menu {
+
+        /**
+         * @see Walker_Nav_Menu::start_lvl()
+         */
+        function start_lvl( &$output, $depth = 0, $args = array() ) {
+                $output .= "\n<ul class=\"dropdown-menu\">\n";
+        }
+
+        /**
+         * @see Walker_Nav_Menu::start_el()
+         */
+        function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+                global $wp_query;
+
+```
+
 
 
 
